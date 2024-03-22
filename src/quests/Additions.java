@@ -11,10 +11,10 @@ public class Additions {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Enter the first number:");
+        System.out.println("intFirst: ");
         int intFirst = scanner.nextInt();
         
-        System.out.println("Enter the second number:");
+        System.out.println("intSecond: ");
         int intSecond = scanner.nextInt();
         
         int sum = addTwoNumbers(intFirst, intSecond);
