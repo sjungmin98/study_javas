@@ -14,6 +14,7 @@ public class WhilesIfsBreak {
             if (score == -1) {
                 whileFlag = false;
                 break;
+                // continue;
             }
             
             if (score >= 90) {
