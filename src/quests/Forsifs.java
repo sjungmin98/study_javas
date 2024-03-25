@@ -10,9 +10,9 @@ public class Forsifs {
         int number = scanner.nextInt();
         
         for (int count = 1; count <= number; count = count+1) {
-            int powerOfTwo = (int) Math.pow(2, count);
-            if (powerOfTwo % 8 == 0) {
-                System.out.println("2 ** " + count + " = " + powerOfTwo);
+            int PowerOfTwo = (int) Math.pow(2, count);
+            if (PowerOfTwo % 8 == 0) {
+                System.out.println("2 ** " + count + " = " + PowerOfTwo);
             }
         }
 
