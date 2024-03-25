@@ -19,7 +19,7 @@ public class WhilesIfsBreak {
                 System.out.println("C");
             } else if (score == -1) {
                     break;
-                }
+            }
               else {
                 System.out.println("F");
             }
