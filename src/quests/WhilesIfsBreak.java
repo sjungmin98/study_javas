@@ -18,7 +18,6 @@ public class WhilesIfsBreak {
             } else if (score >= 70) {
                 System.out.println("C");
             } else if (score == -1) {
-                    whileFlag = false;
                     break;
                     // continue;
                 }
