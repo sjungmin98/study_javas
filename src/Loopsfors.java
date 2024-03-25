@@ -1,4 +1,5 @@
-// refer : https://www.w3schools.com/java/java_for_loop.asp
+import java.util.ArrayList;
+
 public class Loopsfors {
     public static void main(String[] args){
         /* 
