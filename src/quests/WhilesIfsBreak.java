@@ -25,6 +25,7 @@ public class WhilesIfsBreak {
             } else {
                 System.out.println("F");
             }
+        }
         
         System.out.println("프로그램 종료");
         scanner.close();
