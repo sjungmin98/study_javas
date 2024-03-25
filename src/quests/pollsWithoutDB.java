@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class pollsWithoutDB {
     public static void main(String[] args) {
-        ArrayList<String> questions = new ArrayList<>();
-        ArrayList<String> answers = new ArrayList<>();
-        ArrayList<String> responses = new ArrayList<>();
+        ArrayList<String> questions = new ArrayList<String>();
+        ArrayList<String> answers = new ArrayList<String>();
+        ArrayList<String> responses = new ArrayList<String>();
 
         questions.add("인터스텔라 선호도");
         questions.add("해리포터 선호도");
