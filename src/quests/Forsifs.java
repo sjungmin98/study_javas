@@ -9,9 +9,10 @@ public class Forsifs {
         System.out.print("input number : ");
         int number = scanner.nextInt();
         
-        for (int count = 1; count <= number; count = count + 1) {
-            if (count % 4 == 0) {
-                System.out.println(count + " = 4의 배수");
+        for (int count = 1; count <= number; count = count+1) {
+            int powerOfTwo = (int) Math.pow(2, count);
+            if (powerOfTwo % 4 == 0) {
+                System.out.println("2 ** " + count + " = " + powerOfTwo);
             }
         }
 
