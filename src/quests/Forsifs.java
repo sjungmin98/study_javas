@@ -11,7 +11,7 @@ public class Forsifs {
         
         for (int count = 1; count <= number; count = count+1) {
             int powerOfTwo = (int) Math.pow(2, count);
-            if (powerOfTwo % 4 == 0) {
+            if (powerOfTwo % 8 == 0) {
                 System.out.println("2 ** " + count + " = " + powerOfTwo);
             }
         }
